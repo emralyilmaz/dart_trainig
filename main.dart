@@ -38,4 +38,5 @@ String century;
   if(fark(10, 5)< islem(4,1,5)){
     print("büyüktür");
   }
+
 }
