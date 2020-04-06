@@ -76,6 +76,22 @@ main() {
   print(kutlama.substring(29));
 
 // 17
+String uni = " Sakarya Üniversitesi ";
+print(uni.substring(0,8).trimLeft());
 
+// 18
+double s =1.79;
+print(s.round());
 
+// 19
+num ondalik = 19.99;
+print(ondalik.toInt());
+print(ondalik.floor());
+
+// 20
+bool cevap = true;
+bool cevap2 = false;
+
+print(cevap);
+print(cevap2);
 }

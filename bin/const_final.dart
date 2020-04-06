@@ -1,7 +1,7 @@
  main(){
 
 const double pi = 3.14; // pi değeri gerçek anlamda bir sabittir. 
-                        // yani ne zaman, dünyanın neresinde olursa olsun aynı.
+                        // yani ne zaman olursa olsun, dünyanın neresinde olursa olsun aynı.
                         // pi değeri için const kullanılmalı bu sürede run time süresi kısalır.
 print(pi);
 
