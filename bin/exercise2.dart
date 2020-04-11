@@ -60,4 +60,6 @@ print((1923 is int) && (1299 < 1923));
 var numara = "100";
 print(numara is! num);
 
+var deneme = 30e2;
+print(deneme);
 }
