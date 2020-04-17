@@ -29,7 +29,7 @@ print(mesaj.substring(2,6));
  print(" deneme ".trimLeft());
  print(" deneme ".trimRight());
 
-num sayi = 99.1;
+num sayi = 99.9;
 print(sayi.ceil());
 print(sayi.ceilToDouble());
 print(sayi.floor());

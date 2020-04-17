@@ -1,7 +1,7 @@
 main() {
   var sayi = 5;
 
-  if (sayi > 2) {
+  if (sayi >= 2) {
     print("Sayı değişkeni 2'den büyüktür.");
     print(sayi > 2);
   } else {
@@ -34,7 +34,7 @@ main() {
 // 25 ve üzeri "e",
 // 0 ve üzeri "f",
 
-var not = 85;
+var not = 45;
 
 if(not >= 85){
   print("alınan not:a");

@@ -1,7 +1,7 @@
 
 main() {
   mesaj("Emral", "Yılmaz", 26);
-  mesaj2("Emral");
+  mesaj2("Emral", "Yılmaz");
   mesaj3("Emral", null, 26);
   mesaj4("Emral");
   mesaj4("Emral", null, 27);
