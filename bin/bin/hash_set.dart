@@ -7,4 +7,7 @@ main(){
 var hset = HashSet.from([1,2,1,2,"Merhaba",null,null,[]]);
 print(hset);
 
+hset.addAll(["a","b","b","c"]);
+print(hset);
+
 }

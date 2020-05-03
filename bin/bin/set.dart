@@ -1,5 +1,5 @@
 main(){
-var listem  = <int>[1,2,3,4,1,2]; 
+/*var listem  = <int>[1,2,3,4,1,2]; 
 print(listem);
 
 var setim = listem.toSet();
@@ -9,8 +9,12 @@ var numbers = Set<int>.from([2,2,2,3,4]);
 print(numbers);
 
 var bos_set = Set<int>();
+bos_set.add(3);
+print(bos_set);
 bos_set..add(1)..add(2)..add(3)..add(1)..add(2);
 print(bos_set);
+bos_set.addAll([5,6,3,4]);
+print(bos_set);*/
 
 
 // kesişim (intersection) ve fark(difference) kümelerini bulma

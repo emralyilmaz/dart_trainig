@@ -10,13 +10,13 @@ main() {
   });
   print(deneme3);
 
-  Iterable deneme4 = Iterable.generate(5, (eleman) {
+  Iterable deneme4 = Iterable.generate(3, (eleman) {
     print(eleman);
     return eleman;
   });
   print(deneme4);
 
- Iterable deneme5 = Iterable.generate(5, (eleman) {
+ Iterable deneme5 = Iterable.generate(2, (eleman) {
     print("$eleman.sayı");
     return eleman;
   });

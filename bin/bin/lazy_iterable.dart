@@ -48,7 +48,7 @@ main() {
 //         tüm elemanları ilgilendirir.
 
   List<String> renklerim = ["siyah", "beyaz", "mavi"];
-  var deneme5 = renklerim.map((renk) {
+  var deneme5 = renklerim.map((renk){
     if (renk == "siyah") return "kırmızı";
     if (renk == "mavi") return "sarı";
   });

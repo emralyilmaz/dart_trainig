@@ -19,9 +19,9 @@ print(qui);
 qui.removeFirst();
 print(qui);
 
-// .removeLast: ilk baştaki elemanı silme komutu (listelerde de kullanılıyor.)
+// .removeLast: son elemanı silme komutu (listelerde de kullanılıyor.)
 qui.removeLast();
 print(qui);
-
+print(qui.toList());
 print(qui.toSet().toList());
 }
