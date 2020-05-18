@@ -9,5 +9,5 @@ print(hset);
 
 hset.addAll(["a","b","b","c"]);
 print(hset);
-
+// print(hset.take(3));
 }

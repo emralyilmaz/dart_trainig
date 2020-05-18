@@ -12,10 +12,13 @@ class Otomobil extends Arac {
   Otomobil(this.marka) {
     print("$marka,$tekerlek tekerlekli, $isim isimli bir araç oluşturuldu");
   }
-void calistir(String isim) {
+  @override // "calistir" isimli metodun arac class'ından geldiği belirtilmiş oldu
+  /* Dart'da Yöntem Geçersiz Kılma. Bir Child sınıfı, Üst sınıfının yöntemini yeniden 
+  tanımladığında, Yöntem Geçersiz Kılma olarak adlandırılır. Geçersiz kılma, bir alt sınıfın, 
+  üst sınıf tarafından sağlanan yönteme kendi uygulamasını verebilmesi için yapılır.*/
+  void calistir(String isim) {
     print("içeriği değiştirildi.");
   }
-
 }
 
 class Arac {
@@ -29,4 +32,10 @@ class Arac {
   void calistir(String isim) {
     print("$isim aracı çalıştırıldı...");
   }
+}
+
+class Normal extends Object {
+// aslında tüm claslar "object" classının alt classlarıdır.
+// tüm classların süper classı "object" classıdır.
+
 }

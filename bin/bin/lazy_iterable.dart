@@ -1,6 +1,5 @@
-
 main() {
-  List<int> yas = [3, 5, 7, 15, 30, 45, 33, 29, 22];
+  List<int> yas = [3, 5, 7, 15, -30, 45, 33, 29, 22];
 
 // where(): iterable'daki her eleman için girilen koşulu sağlayıp sağlamadığına bakılıyor.
 //          koşulu sağlayanlardan bir iterable oluşturuluyor.
@@ -34,6 +33,7 @@ main() {
 // expand(): tek bir eleman yerine birden fazla eleman eklemeyi sağlar.
 
   List renkler = ["siyah", "beyaz", "mavi"];
+  print(renkler.length);
   var deneme3 = renkler.expand((renk) {
     return renk == "beyaz" ? ["kırmızı", "beyaz", "sarı"] : [renk];
   });
@@ -43,12 +43,13 @@ main() {
     return ["kırmızı", "beyaz"];
   });
   print(deneme4.toList());
+  print(deneme4.length);
 
 // .map(): bir metodtur. iterable üzeirnde değişiklik yapıyor.
 //         tüm elemanları ilgilendirir.
 
   List<String> renklerim = ["siyah", "beyaz", "mavi"];
-  var deneme5 = renklerim.map((renk){
+  var deneme5 = renklerim.map((renk) {
     if (renk == "siyah") return "kırmızı";
     if (renk == "mavi") return "sarı";
   });
@@ -64,7 +65,7 @@ main() {
   print(deneme6);
 
 // .take(): parantez içindeki sayi kadar listeden eleman alınmasını sağlar.
-  List sayilar = [12, 44, 54, 64, 89, 34, 45, 82, 57];
+List sayilar = [12, 44, 54, 64, 89, 34, 45, 82, 57];
   print(sayilar.take(2));
   var secmeli = sayilar.take(5);
   print(secmeli);
@@ -80,15 +81,14 @@ main() {
   }));
 
 // .skip() : parantez içindeki sayı kadar atlanıp, listedeki elemanların yazdırılmasıdır.
-print(sayilar.skip(2));
+  print(sayilar.skip(2));
 
-// .skipWhile(): .skip metodunun koşullu halidir. koşul sağlanmadığı andan itibaren 
+// .skipWhile(): .skip metodunun koşullu halidir. koşul sağlanmadığı andan itibaren
 //               kalan elemanları yazdırır.
-print(sayilar.skipWhile((m){
-  if (m < 70)
-  return true;
-  else 
-  return false;
-}));
-
+  print(sayilar.skipWhile((m) {
+    if (m < 70)
+      return true;
+    else
+      return false;
+  }));
 }

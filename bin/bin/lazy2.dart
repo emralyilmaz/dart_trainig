@@ -11,15 +11,15 @@ main() {
     return sayi > 18 ? true : false;
   }));
 
-  print(sayi.where((i) {
-    if (i.isOdd)
+  print(sayi.where((d) {
+    if (d.isOdd)
       return true;
     else
       return false;
   }));
 
-  print(sayi.where((i) {
-    return i.isOdd ? true : false;
+  print(sayi.where((d) {
+    return d.isOdd ? true : false;
   }));
 
   /*Iterable yeni = sayi.where((sayi) {
@@ -45,7 +45,7 @@ print(yeni);
   print(meyveler.removeLast());
   print(meyveler);
 
-  var mapDeneme = meyveler.map((i) {
+  var mapDeneme = meyveler.map((i){
     if (i == "elma") return "muz";
     if (i == "armut") return "kivi";
   });

@@ -1,7 +1,7 @@
 main() {
   Araba araba1 = Araba();
   araba1.calistir();
-  araba1.gaza_bas();
+  //araba1.gaza_bas();
 }
 
 class Araba {

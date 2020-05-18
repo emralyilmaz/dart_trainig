@@ -24,7 +24,8 @@ var set2 = Set<int>.from([1,5,95,68,10,250]);
 var kesisim = set1.intersection(set2);
 print(kesisim);
 print(kesisim.toList());
-
+// var yeni = set1.take(2);
+//print(yeni);
 var fark1 = set1.difference(set2);
 print(fark1);
 var fark2 = set2.difference(set1);
