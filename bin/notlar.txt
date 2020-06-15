@@ -1,0 +1,6 @@
+Bu bir txt dosyasıdır.
+Bu ikinci satırın cümlesidir.
+
+Burada bir başka satır vardır.
+
+Burada ise son satır vardır.
